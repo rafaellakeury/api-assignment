@@ -104,7 +104,7 @@ and the service should return a response like this:
 The solution consists of three projects that will be explained bellow:
 
 
-## Asignment.API project
+## Assignment.API project
 The core implementation project, contains all the logic of processing the Requests and Responses of the service.
 The code is organized in the following structure:
 
@@ -136,7 +136,7 @@ Has the classes to map Resources to Models and vice-versa. In order to do so, it
 Place for adding extension methods. It contains the GetErrorMessages() extension method, that converts the validation errors into a more simple message to return to the client.
 
 
-## Asignment.API.Tests project
+## Assignment.API.Tests project
 On the API.Tests project there are tests used to validate internal logic of the service.
-## Asignment.API.IntegrationTests project
+## Assignment.API.IntegrationTests project
 On the API.IntegrationTests project there are tests used to validate the whole functionality of the service.
